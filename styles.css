@@ -578,6 +578,16 @@ a img {
     background: #ffcb4d;
 }
 
+
+
+.portfolio-tittle {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #DEB887;
+    text-transform: uppercase;
+}
+
 .portfolio-box {
     display: flex;
     justify-content: center;
@@ -588,7 +598,9 @@ a img {
 .portfolio-box .img-fluid {
     max-width: 50%;
     height: auto;
-    padding: 5px;
+    border: 1px solid #DEB887;
+    padding: 1px;
+    object-fit: cover;
 }
 
 @media (max-width: 780px) {
@@ -602,5 +614,8 @@ a img {
         max-width: 100%;
         height: auto;
         padding: 2px;
+    }
+    .portfolio-tittle h1 {
+        font-size: 1rem;
     }
 }
