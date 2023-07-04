@@ -169,10 +169,11 @@ main {
     display: flex;
     justify-content: center;
     margin-bottom: 2rem;
+    flex-flow: wrap;
 }
 
 .projects-box .card {
-    width: 25%;
+    width: 30%;
     height: 50%;
     margin: 5px;
     text-align: center;
@@ -186,10 +187,8 @@ main {
 }
 
 .card .btn {
+    margin-top: 1rem;
     border: 0px;
-}
-
-.card .btn {
     color: #000;
     background-color: #deb887;
 }
@@ -361,6 +360,14 @@ a img {
     display: none;
 }
 
+/* .card-body h5 {
+    font-size: 1.5rem;
+}
+
+.card-body p {
+    font-size: 1rem;
+} */
+
 @media (max-width: 780px) {
 
     body{
@@ -381,7 +388,7 @@ a img {
 
     .copyright {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         text-align: center;
         width: 70%;
         font-size: 12px;
