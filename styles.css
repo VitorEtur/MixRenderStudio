@@ -588,6 +588,10 @@ a img {
     text-transform: uppercase;
 }
 
+.portfolio-tittle h1 {
+    font-size: 1.5rem;
+}
+
 .portfolio-box {
     display: flex;
     justify-content: center;
@@ -596,12 +600,20 @@ a img {
 }
 
 .portfolio-box .img-fluid {
-    max-width: 50%;
-    height: auto;
+    max-width: 60%;
+    height: 60vh;
     border: 1px solid #DEB887;
-    padding: 1px;
+    border-radius: 10px;
     object-fit: cover;
+    cursor: pointer;
+    margin: 0.5rem 0.5rem;
 }
+
+.portfolio-box .img-fluid:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
 
 @media (max-width: 780px) {
 
@@ -613,7 +625,9 @@ a img {
         width: 100%;
         max-width: 100%;
         height: auto;
-        padding: 2px;
+        padding: 0px;
+        margin: 0;
+        margin-bottom: 5px;
     }
     .portfolio-tittle h1 {
         font-size: 1rem;
