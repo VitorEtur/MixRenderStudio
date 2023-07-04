@@ -578,3 +578,29 @@ a img {
     background: #ffcb4d;
 }
 
+.portfolio-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    object-fit: cover;
+}
+
+.portfolio-box .img-fluid {
+    max-width: 50%;
+    height: auto;
+    padding: 5px;
+}
+
+@media (max-width: 780px) {
+
+    .portfolio-box {
+        display: flex;
+        flex-direction: column;
+    }
+    .portfolio-box .img-fluid {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        padding: 2px;
+    }
+}
