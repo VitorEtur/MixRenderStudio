@@ -44,3 +44,16 @@ mobileNavbar.init();
 
 
 // ;;;;;;;;;;;;;;
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    var btnTopo = document.getElementById('btnTopo');
+    
+    btnTopo.addEventListener('click', function() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  });
+  
