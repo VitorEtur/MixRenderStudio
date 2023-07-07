@@ -172,6 +172,8 @@ main {
 }
 
 .card img {
+    size: auto;
+    width: 100%;
     height: 30rem;
     object-fit: cover;
     border-top-left-radius: calc(1.25rem - 1px);
@@ -437,8 +439,18 @@ a img {
     }
 
     .card img {
+        size: auto;
+        width: 100%;
+        height: 100%;
         border-top-left-radius: calc(1.25rem - 1px);
         border-top-right-radius: calc(1.25rem - 1px);
+        object-fit: cover;
+    }
+
+    .card-img-top {
+        size: auto;
+        width: 100%;
+        object-fit: cover;
     }
 
     .linha0 {
