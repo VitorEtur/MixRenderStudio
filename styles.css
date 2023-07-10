@@ -149,6 +149,7 @@ main {
 }
 
 .projects-tittle {
+    font-size: 1.5rem;
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -360,6 +361,17 @@ a img {
     width: 71%;
 }
 
+.services-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.services-box p {
+    font-size: 1.5rem;
+}
+
 @media (max-width: 780px) {
 
     body{
@@ -376,6 +388,10 @@ a img {
         z-index: 6;
         top: 0;
         left: 0;
+    }
+
+    .services-box p {
+        font-size: 1rem;
     }
 
     .footer-tittle h1{
