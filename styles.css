@@ -625,6 +625,10 @@ a img {
     transition: transform 0.3s ease;
 }
 
+.card2 {
+    width: 75%;
+}
+
 
 @media (max-width: 780px) {
 
