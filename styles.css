@@ -356,6 +356,10 @@ a img {
     font-size: 1rem;
 }
 
+.projects-box .mb-3 {
+    width: 50%;
+}
+
 @media (max-width: 780px) {
 
     body{
