@@ -343,7 +343,7 @@ footer {
 a img {
     width: 1.5rem;
     height: auto;
-    margin-right: .7rem;
+    /* margin-right: .7rem; */
     position: relative;
     margin-bottom: 2px;
 }
