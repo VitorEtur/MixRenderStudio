@@ -16,6 +16,22 @@
     <meta property="og:image" content="https://i.imgur.com/cKscds8.jpg">
 
     <title>Mix Render Studio</title>
+
+    <style>
+      .img-fluid {
+        opacity: 0;
+        transform: translateX(-50px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+    </style>
+
+</head>
+
 <body>
 
     <header>
@@ -131,6 +147,7 @@
         <span class="arrow"></span>
       </button>
 
+      <script src="script.js"></script>
     <script src="mobile-navbar.js"></script>
     
 </body>

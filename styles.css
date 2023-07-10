@@ -631,6 +631,7 @@ a img {
 .portfolio-box .img-fluid:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease;
+    z-index: 4;
 }
 
 .card2 {
