@@ -56,6 +56,7 @@
             display: flex;
             justify-content: center;
             margin: 10px 0 10px 0;
+            scroll-margin-top: 2.5rem;
         }
 
         #panorama {
@@ -68,12 +69,13 @@
             border-radius: 5px;
         }
 
-        #panorama:target {
-            scroll-margin-top: 2.5rem; /* Ajuste o valor para a altura do seu elemento de navegação superior */
-        }
 
 
         @media (max-width: 780px) {
+
+        .panorama-box {
+            scroll-margin-top: 5rem;
+        }
 
         .panorama-thumbnail {
             width: 100%;
@@ -86,7 +88,6 @@
             border: 1px solid #6e6d28;
         }
    
-            
         #panorama {
             width: 100%;
             height: 75vh;
@@ -131,10 +132,10 @@
         </div>
 
         <div class="panorama-area">
-            <div class="panorama-thumbnail" onclick="openPanorama('./360/360 EM PNG.png')"><a href="#panoramax"><img src="./projetos/Fabiano/01.jpg" alt=""></a></div>
-            <div class="panorama-thumbnail" onclick="openPanorama('./360/360P.png')"><a href="#panoramax"><img src="./projetos/Interior/15.jpg" alt=""></a></div>
-            <div class="panorama-thumbnail" onclick="openPanorama('./360/360QMM01.png')"><a href="#panoramax"><img src="./projetos/Interior/23.jpg" alt=""></a></div>
-            <div class="panorama-thumbnail" onclick="openPanorama('./360/QBB3601.png')"><a href="#panoramax"><img src="./projetos/Interior/16.jpg" alt=""></a></div>
+            <div class="panorama-thumbnail" onclick="openPanorama('./360/360 EM PNG.webp')"><a href="#panoramax"><img src="./projetos/Fabiano/01.jpg" alt=""></a></div>
+            <div class="panorama-thumbnail" onclick="openPanorama('./360/360P.webp')"><a href="#panoramax"><img src="./projetos/Interior/15.jpg" alt=""></a></div>
+            <div class="panorama-thumbnail" onclick="openPanorama('./360/360QMM01.webp')"><a href="#panoramax"><img src="./projetos/Interior/23.jpg" alt=""></a></div>
+            <div class="panorama-thumbnail" onclick="openPanorama('./360/QBB3601.webp')"><a href="#panoramax"><img src="./projetos/Interior/16.jpg" alt=""></a></div>
         </div>
 
         <div class="panorama-box" id="panoramax">
