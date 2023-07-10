@@ -68,6 +68,11 @@
             border-radius: 5px;
         }
 
+        #panorama:target {
+            scroll-margin-top: 2.5rem; /* Ajuste o valor para a altura do seu elemento de navegação superior */
+        }
+
+
         @media (max-width: 780px) {
 
         .panorama-thumbnail {
@@ -126,13 +131,13 @@
         </div>
 
         <div class="panorama-area">
-            <div class="panorama-thumbnail" onclick="openPanorama('./360/360 EM PNG.png')"><a href="#panorama"><img src="./projetos/Fabiano/01.jpg" alt=""></a></div>
-            <div class="panorama-thumbnail" onclick="openPanorama('./360/360P.png')"><a href="#panorama"><img src="./projetos/Interior/15.jpg" alt=""></a></div>
-            <div class="panorama-thumbnail" onclick="openPanorama('./360/360QMM01.png')"><a href="#panorama"><img src="./projetos/Interior/23.jpg" alt=""></a></div>
-            <div class="panorama-thumbnail" onclick="openPanorama('./360/QBB3601.png')"><a href="#panorama"><img src="./projetos/Interior/16.jpg" alt=""></a></div>
+            <div class="panorama-thumbnail" onclick="openPanorama('./360/360 EM PNG.png')"><a href="#panoramax"><img src="./projetos/Fabiano/01.jpg" alt=""></a></div>
+            <div class="panorama-thumbnail" onclick="openPanorama('./360/360P.png')"><a href="#panoramax"><img src="./projetos/Interior/15.jpg" alt=""></a></div>
+            <div class="panorama-thumbnail" onclick="openPanorama('./360/360QMM01.png')"><a href="#panoramax"><img src="./projetos/Interior/23.jpg" alt=""></a></div>
+            <div class="panorama-thumbnail" onclick="openPanorama('./360/QBB3601.png')"><a href="#panoramax"><img src="./projetos/Interior/16.jpg" alt=""></a></div>
         </div>
 
-        <div class="panorama-box">
+        <div class="panorama-box" id="panoramax">
          <div id="panorama"></div>
         </div>
 

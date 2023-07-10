@@ -378,6 +378,10 @@ a img {
         left: 0;
     }
 
+    .footer-tittle h1{
+        font-size: 1.5rem;
+    }
+
     .copyright {
         display: flex;
         flex-direction: column;
@@ -425,13 +429,13 @@ a img {
     }
 
     .projects-tittle h1{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .projects-box {
         display: flex;
         justify-content: center;
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
         margin-top: 1rem;
     }
@@ -515,7 +519,7 @@ a img {
     }
 
     .about-tittle h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin-bottom: -1rem;
     }
 
