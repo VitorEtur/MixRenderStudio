@@ -316,12 +316,13 @@ footer {
 .footer-box {
     width: auto;
     height: 250px;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
     margin: 5px;
 }
 
 .footer-box a {
+    text-align: center;
     margin-bottom: 1rem;
     width: 100%;
     border: none;
@@ -347,7 +348,14 @@ a img {
     /* margin-right: .7rem; */
     position: relative;
     margin-bottom: 2px;
+    text-align: center;
 }
+
+footer a img {
+    margin-right: 0.7rem;
+}
+
+
 
 .btn-top {
     display: none;
@@ -362,7 +370,7 @@ a img {
 }
 
 .services-box {
-    display: flex;
+    display: none;
     flex-direction: column;
     text-align: center;
     margin-bottom: 1rem;
@@ -388,6 +396,16 @@ a img {
         z-index: 6;
         top: 0;
         left: 0;
+    }
+
+    footer a img {
+        margin-right: 0.5rem;
+        float: left;
+    }
+
+    .services-box {
+        display: flex;
+        text-align: center;
     }
 
     .services-box p {
