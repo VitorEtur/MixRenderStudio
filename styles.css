@@ -442,6 +442,12 @@ footer a img {
         height: 5rem;
     }
 
+    .services-box:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+        transition: transform 0.3s ease-in;
+    }
+
     #projects-id {
         display: none;
     }
@@ -743,6 +749,13 @@ footer a img {
 
 
 @media (max-width: 780px) {
+
+    .portfolio-box .img-fluid:hover {
+        transform: none;
+        transition: transform 0.3s ease;
+        z-index: 2;
+        max-width: 100%;
+    }
 
     .portfolio-box {
         display: flex;
