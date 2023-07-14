@@ -157,10 +157,12 @@ main {
     margin-top: 2rem;
     margin-bottom: 2rem;
     color: #DEB887;
+    scroll-margin-top: 2.5rem;
 }
 
 .projects-tittle h1 {
     font-size: 2rem;
+    scroll-margin-top: 2.5rem;
 }
 
 .services-tittle {
@@ -333,7 +335,7 @@ footer {
 }
 
 .footer-box {
-    width: auto;
+    width: 40%;
     height: 250px;
     text-align: left;
     text-transform: uppercase;
@@ -427,6 +429,10 @@ footer a img {
         float: left;
     }
 
+    .footer-box {
+        width: auto;
+    }
+
     .services-box {
         display: flex;
         align-items: center;
@@ -440,6 +446,10 @@ footer a img {
         display: none;
     }
 
+    .projects-id2 {
+        scroll-margin-top: 5rem;
+    }
+
     .p-center {
         text-align: center;
     }
@@ -451,6 +461,10 @@ footer a img {
 
     .footer-tittle h1{
         font-size: 1.3rem;
+    }
+
+    .footer-tittle {
+        margin-bottom: 1rem;
     }
 
     .copyright {
@@ -483,7 +497,9 @@ footer a img {
     }
 
     .btn-top a img {
-        margin-right: 5px;
+        margin-top: -1px;
+        margin-right: 0.5rem;
+        float: left;
     }
     
     .btn-top a {
@@ -506,6 +522,13 @@ footer a img {
 
     .projects-tittle h1{
         font-size: 1.3rem;
+    }
+
+    .projects-tittle {
+        margin-bottom: 1rem;
+        margin-left: 5px;
+        margin-right: 5px;
+        scroll-margin-top: 6rem;
     }
 
     .projects-box {
@@ -592,6 +615,10 @@ footer a img {
         font-size: 1rem;
         margin-bottom: -1.5rem;
         text-align: justify;
+    }
+
+    .about-tittle {
+        margin-bottom: 1rem;
     }
 
     .about-tittle h1 {
