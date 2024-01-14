@@ -5,8 +5,14 @@
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
+
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,600;1,100;1,200;1,400;1,600&display=swap" rel="stylesheet"> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,600;1,100;1,200;1,400;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="icon" type="image/png" href="./Images/logo - Copia.png">
 
@@ -42,6 +48,7 @@
 </header>
 
 <div class="linha0"></div>
+
 <section class="carousel-box">
 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
@@ -49,6 +56,7 @@
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
+  
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="2500">
       <img src="./Images/FL15.webp" class="d-block w-100" alt="Adega de luxo com detalhes em dourado">
@@ -57,17 +65,19 @@
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2500">
-      <img src="./Images/ARP06.webp" class="d-block w-100" alt="Cena exterior - Uma piscina com uma bóia">
+      <img src="./projetos/Exterior/01.webp" class="d-block w-100" alt="Cena exterior - Uma piscina com uma bóia">
       <div class="carousel-caption d-none d-md-block">
 
       </div>
     </div>
-    <div class="carousel-item" data-bs-interval="2500">
-      <img src="./Images/CNY03.webp" class="d-block w-100" alt="Cozinha preta e branca de alto padrão">
+
+    <div class="carousel-item" data-bs-interval="2500" id="mobile-carousel-item">
+      <img src="./projetos/Interior/01.webp" class="d-block w-100" alt="Cozinha preta e branca de alto padrão">
       <div class="carousel-caption d-none d-md-block">
 
       </div>
     </div>
+
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -124,48 +134,94 @@
 <div id="projects-id" class="linha"></div>
 
 <div id="projects-id2" class="projects-tittle">
-  <h1>Alguns de nossos trabalhos</h1>
+  <h1>PORTFÓLIO</h1>
 </div>
 
   <section>
     <div class="projects-box">
 
-      <div class="card mb-3">
-        <img src="./projetos/Interior/43.webp" class="card-img-top" alt="Imagens de um edificio">
+      <div class="card">
+        <img src="./Images/01Interior.webp" class="card-img-top" alt="Imagem de um quarto na Italía com uma vista deslumbrante e um quadro lindo onde mostra 2 estatuas se beijando">
         <div class="card-body">
-          <h5 class="card-title">Ambientes em 360°</h5>
-          <!-- <h6 class="card-title">Cenas</h6> -->
-          <a href="./projetos360.html" class="btn btn-primary">Visualizar</a>
+          <h5 class="card-title">Projetos Autorais:</h5>
+          <h6 class="card-title">Cenas Internas</h6>
+
+          <a href="./Projetos-Internas.html" class="btn btn-primary">Visualizar</a>
         </div>
       </div>
 
       <div class="card">
-        <img src="./Images/FL09.webp" class="card-img-top" alt="Cozinha de alto padrão com detalhes em dourado">
+        <img src="./Images/01Exterior.webp" class="card-img-top" alt="Imagens de um edificio">
+        <div class="card-body">
+          <h5 class="card-title">Projetos Autorais:</h5>
+          <h6 class="card-title">Cenas Externas</h6>
+
+          <a href="./Projetos-Externas.html" class="btn btn-primary">Visualizar</a>
+        </div>
+      </div>
+
+      <!-- <div class="card mb-3"> -->
+        <div class="card">
+          <img src="./projetos/Interior/33.jpg" class="card-img-top" alt="Imagens de um edificio">
+          <div class="card-body">
+            <h5 class="card-title">Ambientes em 360°</h5>
+            <h6 class="card-title">Experiência Imersiva</h6>
+            <!-- <h6 class="card-title">Cenas</h6> -->
+            <a href="./Projetos-360.html" class="btn btn-primary">Visualizar</a>
+          </div>
+        </div>
+
+  <div id="projects-id3" class="projects-tittle3">
+    <h1>Alguns de nossos trabalhos</h1>
+  </div>
+
+      <div class="card">
+        <img src="./Images/01Fabiano.webp" class="card-img-top" alt="Cozinha de alto padrão com detalhes em dourado">
         <div class="card-body">
           <h5 class="card-title">Cliente:</h5>
           <h6 class="card-title">Fabiano Raizer Interiores</h6>
 
-          <a href="./projetos1.html" class="btn btn-primary">Visualizar</a>
+          <a href="./Projetos-Fabiano.html" class="btn btn-primary">Visualizar</a>
         </div>
       </div>
 
       <div class="card">
-        <img src="./Images/FINAL-01.webp" class="card-img-top" alt="Imagem de uma casa por fora">
+        <img src="./Images/01Lagum.webp" class="card-img-top" alt="Imagem de uma casa por fora">
         <div class="card-body">
           <h5 class="card-title">Cliente:</h5>
-          <h6 class="card-title">Julia Lavall | Lagum Arq.</h6>
+          <h6 class="card-title">Lagum Arquitetura</h6>
 
-          <a href="./projetos2.html" class="btn btn-primary">Visualizar</a>
+          <a href="./Projetos-Lagum.html" class="btn btn-primary">Visualizar</a>
         </div>
       </div>
 
       <div class="card">
-        <img src="./Images/01-FINAL-QUARTO-CASAL-ALTERAÇÃO.webp" class="card-img-top" alt="Imagem de um quarto de casal">
+        <img src="./Images/01Edson.webp" class="card-img-top" alt="Imagem de um quarto de casal">
         <div class="card-body">
           <h5 class="card-title">Cliente:</h5>
-          <h6 class="card-title">Arq. Edson Reis</h6>
+          <h6 class="card-title">Arquiteto Edson Reis</h6>
 
-          <a href="./projetos3.html" class="btn btn-primary">Visualizar</a>
+          <a href="./Projetos-Edson.html" class="btn btn-primary">Visualizar</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./Images/01Anco.webp" class="card-img-top" alt="Imagem de um quarto de casal">
+        <div class="card-body">
+          <h5 class="card-title">Cliente:</h5>
+          <h6 class="card-title">Anco Arquitetura</h6>
+
+          <a href="./Projetos-Anco.html" class="btn btn-primary">Visualizar</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./Images/01Dumani.webp" class="card-img-top" alt="Imagem de um quarto de casal">
+        <div class="card-body">
+          <h5 class="card-title">Cliente:</h5>
+          <h6 class="card-title">Dumani Arquitetura</h6>
+
+          <a href="./Projetos-Dumani.html" class="btn btn-primary">Visualizar</a>
         </div>
       </div>
 
@@ -174,36 +230,11 @@
         <div class="card-body">
           <h5 class="card-title">Cliente:</h5>
           <h6 class="card-title">Arq. Marjana Tortelli</h6>
-          <a href="./projetos4.html" class="btn btn-primary">Visualizar</a>
+          <a href="./Projetos-Marjana.html" class="btn btn-primary">Visualizar</a>
         </div>
       </div>
-
-      <div class="card">
-        <img src="./Images/ITALIA10.webp" class="card-img-top" alt="Imagem de um quarto na Italía com uma vista deslumbrante e um quadro lindo onde mostra 2 estatuas se beijando">
-        <div class="card-body">
-          <h5 class="card-title">Projetos Autorais:</h5>
-          <h6 class="card-title">Cenas Internas</h6>
-
-          <a href="./projetos5.html" class="btn btn-primary">Visualizar</a>
-        </div>
-      </div>
-
-      <div class="card">
-        <img src="./Images/EDF02.webp" class="card-img-top" alt="Imagens de um edificio">
-        <div class="card-body">
-          <h5 class="card-title">Projetos Autorais:</h5>
-          <h6 class="card-title">Cenas Externas</h6>
-
-          <a href="./projetos6.html" class="btn btn-primary">Visualizar</a>
-        </div>
-      </div>
-
-
       
     </div>
-
-
-    
 
   </section>
   
@@ -225,7 +256,7 @@
 
     <div class="copyright">
       <p>Desenvolvido por <a style="text-decoration: dashed; color: #ffcb4d;" target="_blank" href="https://br.linkedin.com/in/vitor-tchunwen-15bb1884">Vitor Tchunwen</a></p>
-      <p>© 2023 Mix Render Studio - Todos os direitos reservados.</p>
+      <p>© 2024 Mix Render Studio - Todos os direitos reservados.</p>
     </div>
 
   </div>
@@ -238,6 +269,8 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="mobile-navbar.js"></script>
+<script src="carousel.js"></script>
+
 
 </body>
 </html>

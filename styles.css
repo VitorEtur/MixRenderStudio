@@ -11,7 +11,7 @@
 }
 
 nav a {
-    color: #ffffff;
+    color: #FFBE0B;
     text-decoration: none;
     transition: 0.3s;
     scroll-behavior: smooth;
@@ -19,7 +19,7 @@ nav a {
 
 nav a:hover {
     /* opacity: 0.7; */
-    color: #deb887;
+    color: #ffffff;
     scroll-behavior: smooth;
 }
 
@@ -28,7 +28,7 @@ nav a:hover {
     /* border-bottom: #ffffff 3px solid; */
     /* padding-bottom: 2.5vh; */
     transition: 100ms;
-    color: burlywood;
+    color: #ffffff;
     border-bottom: #ffffff 3px solid;
     padding-bottom: 2.5vh;
     scroll-behavior: smooth;
@@ -97,13 +97,13 @@ main {
 .linha0 {
     width: 100%;
     height: 2px;
-    background: #ffcb4d;
+    background: #FFBE0B;
 }
 
 .linha {
     width: 100%;
     height: 2px;
-    background: #ffcb4d;
+    background: #FFBE0B;
 }
 
 .about-tittle {
@@ -114,7 +114,7 @@ main {
 
 .about-tittle h1 {
     font-size: 2rem;
-    color: #DEB887;
+    color: #FFBE0B;
 }
 
 .about-tittle p {
@@ -130,37 +130,51 @@ main {
 
 .info {
     padding: 0 1rem 0 1rem;
-    border-right: 2px solid #deb88700;
-    border-left: 2px solid #deb88700;
+    border-right: 2px solid #FFBE0B00;
+    border-left: 2px solid #FFBE0B00;
     width: 50%;
 }
 
 .info h2 {
     font-size: 1.5rem;
-    color: #DEB887;
+    color: #FFBE0B;
 }
 
 .info2 {
     padding: 0 1rem 0 1rem;
-    border-right: 2px solid #DEB887;
-    border-left: 2px solid #DEB887;
+    border-right: 2px solid #FFBE0B;
+    border-left: 2px solid #FFBE0B;
     width: 50%;
 }
 
 .info2 h2 {
     font-size: 1.5rem;
-    color: #DEB887;
+    color: #FFBE0B;
 }
 
 .projects-tittle {
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    color: #DEB887;
+    color: #FFBE0B;
+    scroll-margin-top: 2.5rem;
+}
+
+.projects-tittle3 {
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #FFBE0B;
     scroll-margin-top: 2.5rem;
 }
 
 .projects-tittle h1 {
+    font-size: 2rem;
+    scroll-margin-top: 2.5rem;
+}
+
+.projects-tittle3 h1 {
     font-size: 2rem;
     scroll-margin-top: 2.5rem;
 }
@@ -170,7 +184,7 @@ main {
     text-align: center;
     margin-top: -2rem;
     margin-bottom: 2.5rem;
-    color: #DEB887;
+    color: #FFBE0B;
 }
 
 .projects-box {
@@ -202,35 +216,35 @@ main {
     margin-top: 1rem;
     border: 0px;
     color: #000;
-    background-color: #deb887;
+    background-color: #FFBE0B;
 }
 
 .card .btn-primary {
     color: #000;
-    background-color: #deb887;
+    background-color: #FFBE0B;
 }
 
 .card .btn:focus {
     color: #ffffff;
-    background-color: #deb887;
+    background-color: #FFBE0B;
     border: 0px;
 }
 
 .card .btn-primary:focus {
     color: #ffffff;
-    background-color: #deb887;
+    background-color: #FFBE0B;
     border: 0px;
 }
 
 .card .btn:focus-visible {
     color: #ffffff;
-    background-color: #deb887;
+    background-color: #FFBE0B;
     border: 0px;
 }
 
 .card .btn-primary:hover {
     color: #ffffff;
-    background-color: #deb887;
+    background-color: #FFBE0B;
     border: 0px;
 }
 
@@ -238,7 +252,7 @@ main {
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    color: #DEB887;
+    color: #FFBE0B;
 }
 
 .form-box {
@@ -254,7 +268,7 @@ form {
 form input {
     width: 520px;
     background: transparent;
-    border: 1px solid #DEB887;
+    border: 1px solid #FFBE0B;
     padding: 10px;
     color: #fff;
 }
@@ -265,20 +279,20 @@ form textarea {
     max-height: 300px;
     min-height: 200px;
     background: transparent;
-    border: 1px solid #DEB887;
+    border: 1px solid #FFBE0B;
     padding: 10px;
     color: #fff;
 }
 
 form button {
     width: 520px;
-    background-color: #DEB887;
+    background-color: #FFBE0B;
     margin-bottom: 2rem;
     height: 50px;
 }
 
 form button:visited {
-    background-color: #DEB887;
+    background-color: #FFBE0B;
 }
 
 form button:hover {
@@ -307,7 +321,7 @@ footer {
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    color: #DEB887;
+    color: #FFBE0B;
 }
 
 .footer-tittle h1 {
@@ -331,7 +345,7 @@ footer {
 }
 
 .copyright p {
-    color: #DEB887;
+    color: #FFBE0B;
 }
 
 .footer-box {
@@ -348,18 +362,18 @@ footer {
     width: 100%;
     border: none;
     border-radius: 5px;
-    background-color: #DEB887;
+    background-color: #FFBE0B;
     color: #000;
 }
 
 .footer-box a:visited {
-    background-color: #DEB887;
+    background-color: #FFBE0B;
     border: none;
 }
 
 .footer-box a:hover {
     border: none;
-    background-color: #DEB887;
+    background-color: #FFBE0B;
     color: #fff;
 }
 
@@ -436,7 +450,7 @@ footer a img {
     .services-box {
         display: flex;
         align-items: center;
-        background: antiquewhite;
+        background: #FFBE0B;
         margin: 0 2rem 1rem 2rem;
         border-radius: 5px;
         height: 5rem;
@@ -496,7 +510,7 @@ footer a img {
     .btn-top a{
             width: 100%;
             border: none;
-            background-color: #DEB887;
+            background-color: #FFBE0B;
             color: #000;
             padding: 0.5rem;
             border-radius: 5px;
@@ -511,18 +525,18 @@ footer a img {
     .btn-top a {
         width: 100%;
         border: none;
-        background-color: #DEB887;
+        background-color: #FFBE0B;
         color: #000;
     }
     
     .btn-top a:visited {
-        background-color: #DEB887;
+        background-color: #FFBE0B;
         border: none;
     }
     
     .btn-top a:hover {
         border: none;
-        background-color: #DEB887;
+        background-color: #FFBE0B;
         color: #fff;
     }
 
@@ -570,6 +584,7 @@ footer a img {
         margin-top: 8vh;
         width: 100%;
         height: 2px;
+        background: #FFBE0B;
     }
 
     .mobile-menu .line2 {
@@ -712,12 +727,16 @@ footer a img {
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    color: #DEB887;
+    color: #FFBE0B;
     text-transform: uppercase;
 }
 
 .portfolio-tittle h1 {
     font-size: 1.5rem;
+}
+
+.portfolio-tittle h2 {
+    font-size: 0.8rem;
 }
 
 .portfolio-box {
@@ -729,8 +748,8 @@ footer a img {
 
 .portfolio-box .img-fluid {
     max-width: 60%;
-    height: 60vh;
-    border: 1px solid #DEB887;
+    height: 50vh;
+    border: 1px solid #FFBE0B;
     border-radius: 10px;
     object-fit: cover;
     cursor: pointer;
@@ -779,7 +798,7 @@ footer a img {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #deb88785;
+    background-color: #FFBE0B85;
     color: #fff;
     border: none;
     border-radius: 50%;
@@ -801,7 +820,7 @@ footer a img {
   }
 
   .btn-topo:hover {
-    background-color: #DEB887;
+    background-color: #FFBE0B;
   }
   
   /* .arrow:before {
