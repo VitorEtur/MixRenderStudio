@@ -159,6 +159,7 @@ main {
 
 .img-about {
     width: 100%;
+    object-fit: cover;
 }
 
 .info {
@@ -489,6 +490,10 @@ footer a img {
 
     .about-img {
         display: none;
+    }
+
+    .img-about {
+        object-fit: cover;
     }
 
     .about-box {
